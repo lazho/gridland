@@ -32,7 +32,8 @@
   "I don't do a whole lot ... yet."
   [& args]
   (let [cs (grid/grid-to-coords (grid/normalise (grid/make-grid 4)))]
-    (q/defsketch dsa
-        :size [510 510]
-        :setup setup
-        :draw (partial draw cs 30 30))))
+    (q/defsketch gridland
+                 :size [510 510]
+                 :title "gridland"
+                 :setup setup
+                 :draw (partial draw cs 30 30))))
