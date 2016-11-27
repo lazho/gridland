@@ -6,7 +6,7 @@ Current progress: Generates random elevation over a 2D grid with an implementati
 
 Looks something like this:
 
-![Looks something like this]((http://i.imgur.com/seJxY8F.png)
+![Looks something like this](http://i.imgur.com/seJxY8F.png)
 
 Currently blue means low and red means high. The visualisation part is largely hardcoded and there's lots more work to be done.
 
